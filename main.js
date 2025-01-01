@@ -1,4 +1,4 @@
-let box = document.querySelector("#ligth")
+let box = document.querySelector("#light")
 
 let button1 = document.querySelector("#btnon")
 let button2 = document.querySelector("#btnoff")
@@ -6,9 +6,9 @@ let button2 = document.querySelector("#btnoff")
 // mesha ka dhacaayo actiona
 
 button1.addEventListener("click",function(){
-    box.style.backgroundColor = "black"
+    box.style.backgroundColor = "transparent"
 
 })
 button2.addEventListener("click",function(){
-    box.style.backgroundColor = "transparent"
+    box.style.backgroundColor = "black"
 })
